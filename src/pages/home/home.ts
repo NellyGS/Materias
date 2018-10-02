@@ -11,14 +11,10 @@ export class HomePage {
   historia = HistoriaPage;
 
   constructor(public navCtrl: NavController) {
-
   }
     
     clickHistoria(){
       this.navCtrl.push(this.historia);
-
-
-
     }
   }
 
