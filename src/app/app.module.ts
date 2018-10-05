@@ -11,6 +11,7 @@ import { CsPage } from '../pages/cs/cs';
 import { PyePage } from '../pages/pye/pye';
 import { DibPage } from '../pages/dib/dib';
 import { ComPage } from '../pages/com/com';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComPage } from '../pages/com/com';
     CsPage, 
     PyePage,
     DibPage,
-    ComPage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    ComPage,
+    MiPage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { ComPage } from '../pages/com/com';
     CsPage,
     PyePage,
     DibPage,
-    ComPage
+    ComPage,
+    MiPage
   ],
   providers: [
     StatusBar,
