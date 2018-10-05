@@ -7,6 +7,7 @@ import { DibPage } from '../dib/dib';
 import { ComPage } from '../com/com';
 import { MiPage } from '../mi/mi';
 import { RobPage } from '../rob/rob';
+import { PappsPage } from '../papps/papps';
 
 
 @Component({
@@ -22,6 +23,7 @@ export class HomePage {
   com = ComPage;
   mi = MiPage;
   rob = RobPage;
+  papps = PappsPage
 
   constructor(public navCtrl: NavController) {
   }
@@ -52,6 +54,10 @@ export class HomePage {
 
     clickRob (){
       this.navCtrl.push(this.rob);
+    }
+
+    clickPapps (){
+      this.navCtrl.push(this.papps);
     }
   }
 
