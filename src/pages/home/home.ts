@@ -4,6 +4,8 @@ import { HistoriaPage } from '../historia/historia';
 import { CsPage } from '../cs/cs';
 import { PyePage } from '../pye/pye';
 import { DibPage } from '../dib/dib';
+import { ComPage } from '../com/com';
+
 
 @Component({
   selector: 'page-home',
@@ -15,6 +17,7 @@ export class HomePage {
   cs = CsPage;
   pye = PyePage;
   dib = DibPage;
+  com = ComPage;
 
   constructor(public navCtrl: NavController) {
   }
@@ -33,6 +36,10 @@ export class HomePage {
 
     clickDib (){
       this.navCtrl.push(this.dib);
+    }
+
+    clickCom (){
+      this.navCtrl.push(this.com);
     }
   }
 
