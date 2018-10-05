@@ -51,7 +51,7 @@ export class HomePage {
     }
 
     clickRob (){
-      this.navCtrl.push(this.mi);
+      this.navCtrl.push(this.rob);
     }
   }
 
